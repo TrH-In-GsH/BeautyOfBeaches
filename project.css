@@ -1,0 +1,64 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Màu xanh nước biển */
+    color: #333; /* Màu chữ chính */
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #87cefa; /* Màu xanh da trời nhạt */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    color: #fff; /* Màu chữ trắng */
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: #4682b4; /* Màu xanh da trời đậm */
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff; /* Màu chữ trắng */
+    font-weight: bold;
+  }
+  
+  /* Main Content Styles */
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  #categories, #search {
+    width: 45%;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #87cefa; /* Màu xanh da trời nhạt */
+    padding: 10px;
+    text-align: center;
+  }
